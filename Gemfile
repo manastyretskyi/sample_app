@@ -14,6 +14,9 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'bcrypt',         '3.1.13'
 gem 'faker', '2.1.2'
 gem 'will_paginate', '3.1.8'
+gem 'active_storage_validations', '0.8.2'
+gem 'image_processing',           '1.9.3'
+gem 'mini_magick'
 gem 'bootstrap-will_paginate', '1.0.0'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
